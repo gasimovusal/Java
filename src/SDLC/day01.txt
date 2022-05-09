@@ -1,0 +1,74 @@
+
+SDLC - Software Development Life Cycle
+The SDLC aims to produce a high quality software that meets or exceeds customer  expectations, reaches completion within  times and cost estimates.
+WinRar - widely used tool for compressing large  files and for transferring data.
+
+    Importance of SDLC
+• It provides an effective framework and method to develop software applications.
+• It helps in effectively planning before starting the actual development. SDLC allows developers to analyze the requirements.
+• It helps in reducing unnecessary costs during development.
+• It enables developers to design and build high-quality software products.
+• It provides a basis when evaluating the effectiveness of the software. This further enhances the  software product.
+• It ensures the protection of software or website
+
+    SDLC Stages:
+1) Planning and Requirement analysis
+2) Defining Requirements
+3) Designing the product architecture
+4) Building or developing the product
+5) Testing the product
+6) Deployment in the market
+7) Maintenance
+
+    SDLC Team:
+• Project manager
+• Business Analyst
+• Quality analyst
+• Developer
+
+    Project manager
+The project manager is  accountable for ensuring  that everyone on the team  knows and executes his or her role, knows the roles of the  other team members
+• Managing the project  stakeholders
+• Managing communication
+• Managing the project team
+• Managing the project risk
+• Managing the project schedule
+• Managing the project budget
+• Managing the project conflicts
+• Managing the project delivery
+
+    Business Analyst
+• A bridge between the business problems  and the technology solutions.
+• Requirements management and communication.
+• Translating and simplifying requirements.
+• Creates Business Requirement Document  (BRD) - what must be delivered to provide  value.
+• Create Functional Requirement Document  (FRD) - defines a function of a system or its  component.
+• Creates use cases after gathering and  validating a set of functional requirements.
+• Creates flow chart of the processes.
+• A Business Analyst is someone who  analyzes an organization and designs its processes
+
+    Developer
+Developer is a person who writes computer software. As we understand they develop the codes.
+Responsibilities:
+• Gather customer software requirements and develop related software applications and programs.
+• Develop and write high quality coding that meets customer requirements.
+• Create software documentation and update existing documentation.
+
+    Quality Analyst
+• A software quality analyst is responsible for applying the principles and practices of software quality assurance throughout the software development life cycle.
+• A quality analyst helps ensure that an organization’s products or services meet its quality standards.
+• The quality analyst (QA) is in charge of ensuring that the application is built according to the plan.
+• The analyst is in charge of testing the applications to ensure that the application will work according to the expectation of users and businesses.
+• The errors in the application should be found by the analyst so that software developers could work on the errors until the application works without any difficulty.
+• Aside from testing if the application is actually working, the quality analyst should also ensure that stages in developing the application are followed.
+• Testing is used to detect errors in a product.
+Roles and Responsibilities:
+• Analyzing client requirements
+• Understand the software application being  tested
+• Prepare test plan and test strategy Preparing test scenarios / test cases  Preparing test data (used for test cases) Executing the test cases
+• Defect tracking
+• Perform necessary retesting
+• Providing defect information (for developers)
+• Preparing report summaries
+• Conducting review meetings within the team
+

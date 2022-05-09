@@ -1,0 +1,35 @@
+
+•  access modifier of the overriding method (the method inside the child class) CANNOT BE narrower(can be same or wider)
+     than access modifier of the "Overridden Method(the method inside the parent class)
+    "Overridden Method"         "Overriding Method"
+        public                      public
+        protected                   protected, public
+    *** private                     private methods cannot be overridden because it cannot be accessed from different classes
+    *** default                     default, protected, public (if you are not in the same package, default methods cannot be overridden
+
+•  returns types must have "IS-A" relationship from "Overriding Method" (child) to "Overridden Method" (parent)
+       NOTE: To have a IS-A relationship, we must have parent-child relationship
+                If Java or you did not create parent-child relationship between classes, you cannot have IS-A relationship,
+                therefore, you cannot use different return types in Overriding
+       NOTE: Java did not create parent-child relationship between wrapper classes, because of that if return type is one of the wrapper class,
+            return type of "overriding method" must be same with the return type of the "Overridden Method"
+       NOTE: If the return type is "primitive", you cannot change the return type in overriding
+       NOTE: if the return type is "void", you cannot change the return type in overriding
+
+•  you cannot update "method name" and "method parenthesis" in overriding under any condition
+        NOTE: "method name" and "method parameters" are the "signature of the method" (method signature)
+                if you change any one of the "method name" and "method parameters", it means you created a new method but in overriding
+                we should not create a new method, we should just change the implementation
+
+•  static methods are common for all object, if you override and change the implementation, all other object will be effected from the update
+        that can create many issue because of that java DOES NOT let to override STATIC METHODS
+
+•  "final methods" body is in the last updated body, you cannot change the body
+        we change the body in overriding, this is contradiction, because of that Java does not let to override "final methods"
+
+•  what is the differences between method overloading and method overriding?
+        a) method overloading is done in a single class but method overriding needs multiple classes with parent child relationship(inheritance)
+        b) in method overloading we change the method signature but in method overriding we do not touch the method signature
+        c) private, static, and final methods cannot be overridden but can be overloaded
+        note: "method overloading"(static polymorphism) + "method overriding"(dynamic polymorphism) = "Polymorphism" (poly means multiple, morph means form, method with multiple forms)
+        d) in overloading, we have to modify parameters not method body, in overriding we touch the method body

@@ -1,0 +1,33 @@
+
+Map - Interface
+    HashMap - class
+    MashTable - class
+    TreeMap - class
+
+Keys cannot be repeated but values can be repeated
+
+Thread - means operations
+
+    HashMap
+1) it is not synchronized - not capable to control access of multiple threads
+2) it is not thread-safe
+3) it is faster
+4) can have 1 null key and multiple null values
+5) it is not ordered
+
+    HashTable
+1) it is synchronized - capable to control access of multiple threads
+2) it is thread-safe
+3) it is slower and safer
+4) does not accept any null key or any null value
+5) it is not ordered
+
+    TreeMap
+1) it is not synchronized - not capable to control access of multiple threads
+2) it is not thread-safe
+3) it is slowest
+4) does not allow null key but allows multiple null values - treemap cannot put null key in order
+5) entries sorted according to natural ordering
+
+
+    Interface = {Abstraction, Inheritance, Polymorphism}

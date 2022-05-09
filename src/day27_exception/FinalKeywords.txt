@@ -1,0 +1,8 @@
+
+    What is the meaning of "final", "finally", and "finalize" keywords?
+
+    final - if we use final with variable, final variable cannot be updated, you cannot update anything after final keyword
+
+    finally - is block in try-catch
+
+    finalize - java scan the memory constantly, if there is any object which is not used anymore, it deletes them, puts in java trashcan

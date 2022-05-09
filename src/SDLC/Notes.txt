@@ -1,0 +1,149 @@
+
+Agile vs Waterfall
+
+Waterfall does not welcome new changes and updates(customer feedback)
+
+Agile -> it is customer oriented and welcomes new changes and updates
+
+Scrum team is a self-organized team
+Scrum master ==> organize the scrum ceremonies, facilitator for the team
+Product owner ==> they are the representative of the business, they might be alos stakholder
+Developers
+Testers
+
+Development team ==> devs and tester
+
+Who decides how many item they can deliver during a sprint? ==> Development team
+
+Who decides which items will be delivered?
+
+Who decides which items will be delivered ==> product owner
+
+Sprint review meeting is end of the sprint, last meeting?
+What do we do? ==> 1 person in qa will do last demonstration
+
+when we do to next sprint, we will go back previous sprint and review previous sprint, retrospective sprint
+
+==> What is difference between team capacity and team velocity?
+Team capacity is whole capacity of the team members
+Velocity is actual current works capacity
+Sprint of 2 weeks
+5 people => 10 point team capacity
+if 1 person does not come for 1 week ==> velocity => 45 points
+Team Capacity ==> is the whole capacity of team members
+Velocity ==> is the actual/current workers' capacity
+5 people * 8 hours/day * 10 days = 5*8*10 = 400
+4 people * 8 hours/day * 10 days = 4*8*10 = 320
+Ibrahim has points
+4 people => 40 points
+All we can deliver now is 45 points
+our team velocity is now 45
+team capacity => 50 point
+
+==> JDK>JRE>JVM
+JDK ==> Java developer kit
+JVM ==> Java virtual machine
+JRE ==> Java runtime environment
+
+What is field in java? ==> Instance / variable
+Instance is used for storing data and to reach all properties of a class from instances
+
+What is class in java? ==> its a template and blueprint, we use class to create constructor, methods, privates variables etc....
+we have constructor : to initialize class properties/variables, we can initialize super parent properties
+we can only use class name for constructors
+no return type for constructors
+
+methods also can be used to initialize or make data manipulations in java
+methods have return types, non-return types (void), initialize the data
+any name is OKAY
+we can do overriding and overloading with methods
+overriding ==> we have 2 methods (same name, same signature) but in super type and the others one is in sub type, we call them overriding
+overloading ==> when we have same name and different signature for methods (num of parameters, type of parameters, order of param.)
+
+Variable : we use variables to store data and reach data from specific classes
+type of variables ==> instance (outside the method), local, static (only creat one, execute only once
+we can use this access modifiers: public, default, private, and protected
+• public => open to all
+• default => same packages
+• protected => same packages and subclass of other packages
+• private => only same class
+
+• final variable ==> we cannot update the value
+• final method ==> we cannot override it
+• final class ==> we cannot inherit from this class
+• finally key-words ==> we use it after try catch block to have it run if execution passes or fails
+
+• static keyword ==> it belongs to class, it shares same value everywhere
+                   we can call them just with class name or using object
+• static block ==> it will execute first on top of everything
+
+• Interface ==> allows multiple inheritance, have fully abstraction
+          ==> no constructor, no object creation, no concrete methods other than static and default methods, can use abstract methods, final public static varibales by defult, can be omplemented mutiple times
+• Abstarct class ==> use abstract class for semi abstraction
+               ==> constructors, no object creation, abstract methods, concrete methds, no mutiple inheritance
+
+OOP Concept in Java:
+• Encapsulation => data hiding
+• Inheritance => parent-child relationship
+• Abstraction => implementation hiding
+• Polymorphism => one object behaves in different shapes / forms
+
+List <String> list = new ArrayList()<>;
+• we used polymorphism, inheritance, abstraction
+lis.add("value"); => abstraction
+
+difference between string and object:
+• string are immutable => cannot be updated
+• String name="mehmet" => this is a different object
+name="vusal" => this is a different object
+
+StringBuilder stb = new StringBuilder();
+stb.append("ibrahim");  => they are using same memory location, objects are same and muitable
+print(stb.equlas(strb.reverse())); => true
+print(stb.toString().equlas(strb.reverse().toString())); => false
+StringBuilder stb2 = stb; => they are same object
+
+When you have a s=conflict with your developer, how do you resolve it?
+In a professional environment, nothing is personal, all we collaborate for the team success
+when we face smaller issues like this, we first organize a KT (knowledge transfer) session and communicate the iseeus
+then we analyze the requirements together to find out common goal
+
+we need you urgenly, can you join project this week?
+I just need 2 weeks of notice so that I can join your company
+
+Tell me about yourself
+tell me about your project
+tell me about your framework =>
+
+
+we are involved in a Swift platform where we make national and international transactions validations
+
+QA Engineer => person who gets incolved in all development phases from beginning till the end with their technical background
+QA Analyst => involved in whole process from beginning till the end
+Tester => someone who test given requirements, if they are correct or not
+SDET => Software Development Engineer in Test - they can create a framework from scratch, do reporting for project, create utilities for framework, design automation framework
+Full stack automation engineer
+
+application :
+user interface
+backend => database and api(application prgramming interface)
+UI => java+selenium+sdlc => UI tester
+java + api + sdlc => api tester
+java + jdbc + sql + sdlc => database tester
+if you have all experiance above you become SDET
+
+why should we hire you?
+I have searched about your company and review and see that you are very considerable company. so I would like to commit myself for new tools and technologies they are implementing here
+also I would like to share my intense experience with my teammate. i would like to communicate and collaborate with team using my business knowledge and technical experience so that we can have very diverse concept of approaches for btter products in this company
+
+scrum ceremonies
+grooming
+sprint planning
+daily scrum
+spring review
+sprint retrospective
+
+
+
+
+

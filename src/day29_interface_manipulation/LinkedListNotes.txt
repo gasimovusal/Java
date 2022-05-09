@@ -1,0 +1,17 @@
+
+
+
+    1) Head of the LinkedList only contains the address of the 1st element of the list
+
+    2) The last element of the LinkedList contains null in the pointer part of the node because it is the end of the list so it does not point to anything
+
+    3) Every element is a separate object with a data part and address part (it will make operation harder and slower)
+
+    4) The elements are linked using pointers and addresses
+
+    5) Each element is knows as a NODE
+
+    6) It is more DYNAMIC than arrays and EASY to insert and delete elements. Therefore, they are preferred over the arrays
+
+    7) DISADVANTAGES: Nodes cannot be accessed directly
+        instead we need to start from the head and follow through the link to reach to a node we want to access

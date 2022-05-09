@@ -1,0 +1,31 @@
+
+•  encapsulation means "data hiding"
+
+•  how to hide data?
+     answer: I make the data private
+
+•  can you read encapsulated data from other classes?
+     answer: yes I create "getter method" (Java Bean) for the encapsulated data, then by using the getter method I can read it
+
+•  can you update encapsulated data from other classes?
+     answer: yes I create "setter method" (Java Bean) for the encapsulated data, then by using the setter method I can update it
+
+•  return type of getter() method must be same with the data type of the variable
+   return type of setter() methods will be void every time
+
+•  getter() method do not use any parameter but setter() method use a single parameter whose data type is same with the data type of the variable
+
+•  getter() methods for booleans start with "is", does not start with "get"
+
+•  If you do not want to make your variable value readable, do not create getter method
+   If you do not want to update variable value readable, do not create setter
+
+•  just private variables can be encapsulated
+
+•  static variables cannot be encapsulated because static things are common for all objects
+
+•  return type of getter must be same with data type of variable
+
+•  return type of setters must be VOID every time
+
+       NOTE: if you do more create ant setter for any variable, then class is called "immutable class"

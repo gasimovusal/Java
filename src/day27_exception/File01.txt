@@ -1,0 +1,7 @@
+java is easy to learn.,
+we are about to end java instruction
+oop concept hs 4 principle
+1)encapsulation
+2)inheritance
+3)polymorphism
+4)abstraction

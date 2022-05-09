@@ -1,0 +1,49 @@
+
+STEP 1: Create a project on intelJ
+
+----------------------
+
+STEP 2: CREATE GITHUB REPOSITORY
+
+---------------------
+STEP 3: PUSH THE FIRST CODE TO GUTHUB
+*Open intellij terminal
+*Then follow the instruction on github!!!!
+        *git init
+        : Done only once for each project.This is used for initilizing the project. This will create .git forlder to store the project versions!!!
+NOTE: If you see :  The term 'git' is not recognized --> It means github installation is not complete
+
+        *git add .
+        : Done after each code change.
+        : Adds the code in the staging area
+        *git commit -m "my first commit"
+        : Done after each code change
+        : This is used for creating new version of the project
+        *git branch -M main
+        :Done once for each project
+        *git remote add origin https://github.com/abayramus/my-first-git-repo.git
+        :Done once for each project
+        *git push -u origin main
+        :Done once for each project
+***If your code is successfully pushed, then you should refresh your github and see your code in github
+DONE*****
+
+*********Git Push Practice*********
+After the first push, we do not use some of the git commets that we used in the first commit.
+Go to your class and then push this code to the same repository
+
+    *git add .
+    *git commit -m "second commit"
+    *git push
+
+***********************************************
+
+HOW TO PULL THE CODE FROM GITHUB TO LOCAL COMPUTER
+*Create a new file : test_file.txt
+In intelliJ terminal write below commend to pull the code
+    *git pull
+***USEFULL COMMANDS:
+git status :
+This is our friend
+We see the status of our codes
+We can use this anytime to see where you are

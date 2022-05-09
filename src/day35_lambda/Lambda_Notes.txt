@@ -1,0 +1,44 @@
+
+
+A lambda expression is a short block of code which takes in parameters and returns a value.
+Instead of creating loops, we creat a lambda. It saves time and writing bach of codes
+
+Lambda is a functional programming
+Lambda functional programming was created Java 8
+functional programming focuses on "what to do"
+structured programming we focus on "how to do"
+functional programming is used just with collection and with arrays
+we cannot use Maps directly in functional programming but we can convert sets and use them
+we can use entrySet()
+
+General usage of Lamda:
+
+create a new method:
+public static void printElementsFunctional(List<Integer> list){
+
+        list.stream()
+ }
+stream() is used to call lambda method
+distinct() => used to get unique elements
+sorted() => sorting the elements ascending order => usage of reverse order => sorted(Comparator.reverseOrder()
+collect() => collect(Collectors.toList())
+
+Traditional use of Lambda methods:
+
+forEach() => use for printing => : forEach(t -> System.out.print(t + " ")
+filter() => filtering the ist => filter( t -> t % 2 == 0) => gets even numbers
+map() => used for calculation => map(t -> t * t) => get square
+reduce() => use to get sum, avg, max, min => reduce(Integer.MIN_VALUE,(t, u) -> t > u ? t : u)
+
+Calling methods in Lambda:
+
+Create a new class, name it as "Utils"
+call the method:
+ list.stream().distinct().
+                filter(Utils :: checkToBeOdd).
+                map(Utils ::getCube).
+                forEach(Utils :: printInSameLine)
+
+
+
+

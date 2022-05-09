@@ -1,0 +1,55 @@
+
+
+T  1) to create an object by using abstract class is not allowed
+F  2) to create an object using interface is allowed
+F  3) public abstract int sumOfTwo(int n1, int n2){}
+F  4) public class Animal{
+        public abstract void sound();
+        }
+T  5) public abstract class Animal{
+        public abstract void eat();
+        public void sound(){}
+        }
+T  6) an abstract class cannot be final
+F  7) public abstract class Animal{
+        private abstract void sound();
+        }
+T  8) java programming language does not allow you to extend more than one class
+T  9) java programming language allows you to implement more than one interface
+F  10) an interface can have abstract and concrete methods
+
+
+    interface uses abstract keyword for interface name
+    no need for abstract keyword because Java inserts it automatically
+
+    Interface can have constructor
+    no and no need to try to initialize variables as they are final
+
+    abstract class needs abstract keyword
+    abstract class can have concrete and abstract methods
+    abstract class can have constructors
+    abstract class can have final, static, private variables
+
+    interface can have final, static, public variables
+    interface cannot have default, private, protected variables
+    interface can have concrete methods other than default and static??????
+    interface and abstract class cannot create objects
+
+    differences between an interface and abstract class
+    interface cannot have any constructor but abstract class can have constructors
+    abstract use extend keyword, but interface uses implements keyword
+    interface can be implemented many times (multiple inheritance) but abstract class cannot have multiple inheritance
+    interface is fully abstraction and cannot use all concrete methods, but abstract has abstract methods and concrete methods
+
+    difference between an abstract class and concrete class?
+    concrete class can produce object, but we cannot create any object from abstract class
+    concrete class has concrete methods but abstract class has concrete and abstract methods
+
+
+    if I am creating utility in java, I can use try-catch block dynamic
+    I do not need to type exception on more time if I have try-catch block on another class.
+    in trow keyword, you need to type exception again
+
+    what is the biggest difference between try-catch block and trows exception
+    when we use try-catch block, we can apply it mostly utilities as we will not have to handle it again but when we use throws exception,
+    we can use it only when we need to use it once in a method signature (it can be test or development level)

@@ -1,0 +1,31 @@
+
+
+    4 principles of OOP concept in  Java
+    1) Inheritance - parent-child relationship
+    2) polymorphism - multi form of objects
+    3) encapsulation - hiding the data
+    4) abstraction - you hide the implementation
+                            //reference type       //object
+    example to polymorphism: Animal animal    =     new Cat();
+
+
+    to create abstract class, use "abstract" keyword between access modifier and the class keyword
+    abstract class cannot be instantiated, you are not allowed to create an object
+    you can only create object in Concrete Class, which is regular class
+
+    NOTE: A method without body (no implementation) is known as abstract method
+
+    NOTE: An abstract method must always be declared in an abstract class
+          If class has abstract method, then the class should be declared abstract as well
+          An abstract class may have both abstract methods and concrete methods
+
+    NOTE: if super class has abstract methods, then concrete subclass has to implement/override them
+          if super class has abstract methods and child class is abstract as well, no need to override abstract methods
+
+    NOTE: Difference between an abstract class and a concrete class:
+          a) abstract class cannot create any object, concrete class can have objects
+          b) abstract class can have abstract methods and non-abstract methods, concrete class can have only concrete methods
+          c) abstract class cannot be private because it cannot be inherited
+          d) abstract method cannot be final or private
+                final variable cannot be changed, final method cannot be overridden
+          e) abstract method cannot be static because we cannot overwrite it

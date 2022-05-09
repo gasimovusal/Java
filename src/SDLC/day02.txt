@@ -1,0 +1,42 @@
+
+
+        SDLC Satges:
+
+    Stage 1: Planning and Requirement Analysis
+It is performed by the senior members of the team with inputs from the customer
+
+
+    Stage 2: Defining Requirements(feasibility study)
+clearly define and document the product requirements
+Get them approved from the customer /business.
+This is done through ‘BRD’ – Business Requirement Document which consists of all the product requirements to be designed and developed during the project life cycle.
+FRD - Functional Requirement Document is prepared for the technical functional requirements
+Both BRD and FRD are prepared for the User Cases, including the smallest user cases
+
+    Stage 3: Designing the product architecture
+BRD is the reference for product best architecture for the product to be developed.
+Based on the requirements specified in BRD usually more than one design approach for the product architecture is proposed and documented in a DDS Design Document Specification.
+
+    Stage 4: Building or Developing the Product
+In this stage of SDLC, the actual development starts and the product is built.
+Developers have to follow the coding guidelines defined by their organization
+
+the coding guidelines
+clear, readable, no repitations, short, working, nor errors, reliable, safe, flexible, least memory, improvable, quick, testable, dynamic
+WORA: Write Once Run Anywhere - you can use any platform
+
+    Stage 5: Testing the Product
+This stage refers to the testing only stage of the product where product defects are reported, tracked, fixed, and tested until the product reeaches the quility standard defined in the BRD
+The product shoul meed the busienss expectations
+
+    Stage 6: Deployment in the Market
+The deployment pphase in the sixth phase of the SDLC and puts product into production. This means that the product is ready to be used in a real enviroment by all end users of the product
+Once the product is tested and ready to be deployed, it is released formally in the appropriate market
+
+    Stage 7: Maintenance
+After the product is release in the market, it is maintenance is done for the existing customer base
+The SDLC does not end when software reaches the market. Developers must now move into a maintenance mode an begin practice any activities required to handle issues reported by end-users
+Furthermore, developers are responsible for implementing any changes that the software might need after deployment
+This can include
+
+
